@@ -24,5 +24,5 @@ app.get('/gravmatt', (req, res) => {
 });
 
 app.listen(process.env.GRAVMATT_PORT || PORT, () => {
-    log.info('Server is listening on port ' + (process.env.GRAVMATT_PORT || PORT));
+    console.log('Server is listening on port ' + (process.env.GRAVMATT_PORT || PORT));
 });
