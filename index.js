@@ -4,7 +4,7 @@ const qr = require('./external/node-qr-code-reader/qrCodeReader');
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const oratio = require('oratio');
+const oratio = require('@orat.io/integration-sdk');
 const PORT = 8080;
 
 app.set('trust proxy', 1);
