@@ -14,7 +14,7 @@ app.disable('view cache');
 
 app.use(bodyParser.json());
 
-app.get('/gravmatt', (req, res) => {
+app.POST('/gravmatt', (req, res) => {
     console.log(req.body);
 
     res.send('nothing her yet');
